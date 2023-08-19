@@ -20,7 +20,7 @@ function handlerOnBtn(e) {
       body.style.backgroundColor = `${getRandomHexColor()}`;
     }, 1000);
   }
-  if (e.target.hasAttribute('data-stop')) {
+  if (e.target.hasAttribute('data-stop')) {    
     clearInterval(bgc);
   }
 }
